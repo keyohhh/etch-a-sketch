@@ -1,0 +1,93 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Easy Rider";
+    src: url(Easy\ Rider.ttf);
+}
+
+body {
+    margin: 20 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 90vh;
+    background-color: rgb(126, 122, 122);
+}
+
+#container {
+    height: 750px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(248, 248, 246);
+}
+
+.color-choice {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+.color-choice-btn {
+    width: 125px;
+}
+
+.grid-row {
+    border-bottom: 1px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.grid-col {
+    border-right: 1px solid black;
+}
+
+.controls {
+    display: flex;
+    gap: 50px;
+}
+
+.black {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Easy Rider', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    background: linear-gradient(to right, 
+        violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+label {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.slider-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 0 16px;
+}
