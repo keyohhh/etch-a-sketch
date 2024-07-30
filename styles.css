@@ -91,3 +91,23 @@ label {
 button {
     padding: 0 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100%;
+    }
+    .controls {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #container {
+        height: 425px;
+        width: 425px;
+    }
+    button {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
